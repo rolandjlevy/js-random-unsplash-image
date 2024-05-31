@@ -10,6 +10,5 @@ document.addEventListener('DOMContentLoaded', (e) => {
       e.target.classList.add('show');
     });
   });
-
   $('.image').click();
 });

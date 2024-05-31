@@ -11,7 +11,7 @@ body,
   height: 100vh;
 }
 
-.image {
+.photo > .image {
   object-fit: cover;
   display: block;
   width: inherit;
@@ -21,6 +21,6 @@ body,
   cursor: pointer;
 }
 
-.show {
+.photo > .image.show {
   opacity: 1;
 }
